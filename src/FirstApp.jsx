@@ -24,7 +24,7 @@ export const FirstApp = ({
 FirstApp.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string,
-  value: PropTypes.numeric
+  value: PropTypes.number
 }
 
 FirstApp.defaultProps = {
