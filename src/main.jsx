@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <FirstApp title="Titulo" subtitle="subtitulo" valor={123}></FirstApp> */}
     {/* <FirstApp title="titulo"></FirstApp> */}
     {/* <FirstApp title = "titulo" subtitle={123}></FirstApp> */}
-    {/* <FirstApp></FirstApp> */}
-    <CounterApp value={100}></CounterApp>
+    <FirstApp></FirstApp>
+    {/* <CounterApp value={100}></CounterApp> */}
   </React.StrictMode>
 );
