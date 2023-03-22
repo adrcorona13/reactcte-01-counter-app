@@ -6,4 +6,10 @@ describe('Pruebas de 11-async-await', () => {
         expect(typeof url).toBe('string');
         expect(url).toContain('giphy');
      })
+
+    //  test('getImagen debe retornar un error si no cuenta con ApiKey', async () => { 
+    //     const url = await getImagen();
+    //     expect(typeof url).toBe('string');
+    //     expect(url).toBe('No se encontro la imagen');
+    //  })
  })
